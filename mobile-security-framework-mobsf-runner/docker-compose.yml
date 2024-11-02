@@ -1,0 +1,16 @@
+services:
+
+  mobsf:
+    image: opensecurity/mobile-security-framework-mobsf:v4.0.7
+    environment:
+      MOBSF_API_KEY: "Y@U_N!V3R_KN0W_WH0_US3_Y@U"
+    ports:
+      - "8000:8000"
+
+  mobsf-runner:
+    image: letiemble/mobile-security-framework-mobsf-runner:4.0.7
+    entrypoint: ["/usr/local/bin/mobsf_scan.sh", "${INPUT_FILE}", "http://mobsf:8000", "Y@U_N!V3R_KN0W_WH0_US3_Y@U"]
+    volumes:
+      - .:/data
+    depends_on:
+      - mobsf
