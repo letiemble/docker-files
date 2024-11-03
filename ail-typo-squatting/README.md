@@ -7,7 +7,7 @@ A Docker image that contains the [AIL Typo Squatting](https://github.com/typosqu
 To build the image, run the following command:
 
 ```bash
-docker buildx build --build-arg TOOL_VERSION=2.7.4 -t letiemble/ail-typo-squatting:2.7.4 .
+docker buildx build --build-arg TOOL_VERSION=XXX -t letiemble/ail-typo-squatting:XXX -t letiemble/ail-typo-squatting:latest .
 ```
 
 ## Usage

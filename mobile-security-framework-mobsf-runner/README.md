@@ -13,7 +13,7 @@ The runner scripts:
 To build the image, run the following command:
 
 ```bash
-docker buildx build --build-arg TOOL_VERSION=4.0.7 -t letiemble/mobile-security-framework-mobsf-runner:4.0.7 -t letiemble/mobile-security-framework-mobsf-runner:latest .
+docker buildx build --build-arg TOOL_VERSION=XXX -t letiemble/mobile-security-framework-mobsf-runner:XXX -t letiemble/mobile-security-framework-mobsf-runner:latest .
 ```
 
 ## Usage

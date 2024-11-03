@@ -7,7 +7,7 @@ A Docker image that contains the [Check SSL Cert](https://github.com/matteocorti
 To build the image, run the following command:
 
 ```bash
-docker buildx build --build-arg TOOL_VERSION=2.84.4 -t letiemble/check-ssl-cert:2.84.4 -t letiemble/check-ssl-cert:latest .
+docker buildx build --build-arg TOOL_VERSION=XXX -t letiemble/check-ssl-cert:XXX -t letiemble/check-ssl-cert:latest .
 ```
 
 ## Usage

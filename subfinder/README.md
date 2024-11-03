@@ -7,7 +7,7 @@ A Docker image that contains the [Project Discovery Subfinder](https://github.co
 To build the image, run the following command:
 
 ```bash
-docker buildx build --build-arg TOOL_VERSION=2.6.7 -t letiemble/subfinder:2.6.7 -t letiemble/subfinder:latest .
+docker buildx build --build-arg TOOL_VERSION=XXX -t letiemble/subfinder:XXX -t letiemble/subfinder:latest .
 ```
 
 ## Usage

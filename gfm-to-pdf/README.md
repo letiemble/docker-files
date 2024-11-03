@@ -7,7 +7,7 @@ A Docker image that contains the [GFM2PDF](https://github.com/phseiff/github-fla
 To build the image, run the following command:
 
 ```bash
-docker buildx build --build-arg TOOL_VERSION=1.21.3 -t letiemble/gfm-to-pdf:1.21.3 -t letiemble/gfm-to-pdf:latest .
+docker buildx build --build-arg TOOL_VERSION=XXX -t letiemble/gfm-to-pdf:XXX -t letiemble/gfm-to-pdf:latest .
 ```
 
 ## Usage

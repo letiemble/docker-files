@@ -7,7 +7,7 @@ A Docker image that contains the [Masscan](https://github.com/robertdavidgraham/
 To build the image, run the following command:
 
 ```bash
-docker buildx build --build-arg TOOL_VERSION=1.3.2 -t letiemble/masscan:1.3.2 -t letiemble/masscan:latest .
+docker buildx build --build-arg TOOL_VERSION=XXX -t letiemble/masscan:XXX -t letiemble/masscan:latest .
 ```
 
 ## Usage
