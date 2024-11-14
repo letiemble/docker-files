@@ -1,6 +1,6 @@
 # Check DMARC Docker Image
 
-A Docker image that contains the the [Check DMARC](https://github.com/domainaware/checkdmarc) tool.
+A Docker image that contains the [Check DMARC](https://github.com/domainaware/checkdmarc) tool.
 
 ## Build
 
