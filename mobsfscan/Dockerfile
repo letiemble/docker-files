@@ -1,6 +1,6 @@
 ARG PYTHON_TAG=3.10-slim
 FROM python:${PYTHON_TAG}
-ARG TOOL_VERSION=0.4.3
+ARG TOOL_VERSION=0.4.4
 
 LABEL org.opencontainers.image.title="MobSFScan"
 LABEL org.opencontainers.image.description="A Docker image to perform a static code analysis using [MobSFScan](https://github.com/MobSF/mobsfscan) tool."
