@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-TOOL_VERSION=${TOOL_VERSION:-3.0.9}
+TOOL_VERSION=${TOOL_VERSION:-3.2rc4}
 ARCHIVE=testssl.sh.tar.gz
 FOLDER=testssl.sh-$TOOL_VERSION
 

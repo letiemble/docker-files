@@ -7,7 +7,7 @@ Custom build of [drwetter/testssl.sh](https://github.com/drwetter/testssl.sh) Do
 To build the image, run the following command:
 
 ```shell
-BUILD_TAG=3.0.9 ./build_drwetter_testssl.sh
+TOOL_VERSION=3.0.9 ./build.sh
 ```
 
 ## Usage
