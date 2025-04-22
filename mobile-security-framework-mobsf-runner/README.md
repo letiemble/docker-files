@@ -31,7 +31,7 @@ A [Docker Compose file](./docker-compose.yml) is provided to demonstrate how to 
 When the runner is done, the container will stop and will be removed.
 
 ```shell
-INPUT_FILE=MyApp.apk docker-compose up --abort-on-container-exit; docker-compose rm -f
+MOBSF_VERSION=XXX INPUT_FILE=MyApp.apk docker-compose up --abort-on-container-exit; docker-compose rm -f
 ```
 
 Both the application package and the results are stored in the current directory.

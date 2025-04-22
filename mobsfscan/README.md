@@ -1,4 +1,4 @@
-# Check DMARC Docker Image
+# Mobile Security Framework (MobSF)
 
 A Docker image that contains the [MobSFScan](https://github.com/MobSF/mobsfscan) tool.
 
